@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="FEE PAYMENT"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Enter your M-Pesa number and the amount to confirm registration."
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inputPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:background="#EEEEEE"
+            android:hint="Phone Number (e.g., 2547...)"
+            android:padding="12dp"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/inputAmount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="24dp"
+            android:background="#EEEEEE"
+            android:hint="Amount (Kshs)"
+            android:padding="12dp"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnPayAndRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="PAY &amp; COMPLETE REGISTRATION" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "835950613222",
+    "firebase_url": "https://dekut-student-registration-default-rtdb.firebaseio.com",
+    "project_id": "dekut-student-registration",
+    "storage_bucket": "dekut-student-registration.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835950613222:android:9266fba891ebf04baf6127",
+        "android_client_info": {
+          "package_name": "com.example.dekutstudentregistration"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvABxwGyRGZZ3BYa-3tTsf8f2SsDe-XWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
